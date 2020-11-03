@@ -1,7 +1,9 @@
 <template>
-  <div class="library">
+  <div class="typer">
     <div id="main">
-      <vue-typer :text="['Library\n ①vue-typer \n②vue-particles']" 
+      <vue-typer :text="[
+      'Library\n\n vue-typer \nvue-particles\n vue-snowf\n vue-smoothscroll'
+      ]" 
         class="top-text"
         :repeat='0'
         :preTypeDelay="1000"

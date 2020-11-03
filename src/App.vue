@@ -1,34 +1,13 @@
 <template>
   <div id="app">
     <Header id="header"></Header>
-    <!-- <div class="res"><h1 class="res-title">portfolio</h1></div>
-    <div class="nav-res">
-        <a href="#" class="link-content" @click="clickSmoothScroll('#app')">
-          <font-awesome-icon icon="image" class="nav-icon"/>
-          <p class="comment">Top</p>
-        </a>
-        <a href="#" class="link-content" @click="clickSmoothScroll('#about')">
-          <font-awesome-icon icon="user-circle" class="nav-icon"/>
-          <p class="comment">About</p>
-        </a>
-        <a href="#" class="link-content" @click="clickSmoothScroll('#skill')">
-          <font-awesome-icon icon="code" class="nav-icon"/>
-          <p class="comment">Skill</p>
-        </a>
-        <a href="#" class="link-content" @click="clickSmoothScroll('#work')">
-          <font-awesome-icon icon="hammer" class="nav-icon"/>
-          <p class="comment">Works</p>
-        </a>
-        <a href="#" class="link-content" @click="clickSmoothScroll('#contact')">
-          <font-awesome-icon icon="handshake" class="nav-icon"/>
-          <p class="comment">Contact</p>
-        </a>
-    </div> -->
+    <div class="res"><h1 class="res-title">Vue Learning</h1></div>
+    <ResNav></ResNav>
     <div id="top">
-      <vue-particles color="#dedede" class="particles"></vue-particles>
       <Snow></Snow>
+      <vue-particles class="particles"></vue-particles>
+      <Typer></Typer>
     </div>
-    <Library id="library"></Library>
     <Memo id="memo"></Memo>
     <About id="about"></About>
 
@@ -42,8 +21,9 @@
 
 <script>
 import Header from './components/Header.vue'
+import ResNav from './components/ResNav.vue'
 import Snow from './components/Snow.vue'
-import Library from './components/Library.vue'
+import Typer from './components/Typer.vue'
 import Memo from './components/Memo.vue'
 import About from './components/About.vue'
 import Footer from './components/Footer.vue'
@@ -52,8 +32,9 @@ export default {
   name: 'App',
   components: {
     Header,
+    ResNav,
+    Typer,
     Snow,
-    Library,
     Memo,
     Footer,
     About,
@@ -84,6 +65,11 @@ export default {
 
 
 <style>
+body{
+  margin: 0;
+  background-color: #03121A;
+  color: white;
+}
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
@@ -92,8 +78,6 @@ export default {
 .fade-leave-active {
   transition: opacity 0.5s;
 }
-
-/* @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap"); */
 #app{
   font-family:'Comic Neue',cursive ;
   font-style: italic;
@@ -102,7 +86,7 @@ export default {
 #top{
   position: relative;
   /*background-image: url(./assets/yoru2.jpg);*/
-  background-color:#03111a;
+  /* background-color:#03111a; */
   background-size: cover;
   height: 100vh;
 }
@@ -115,23 +99,16 @@ export default {
 .particles{
   z-index: 1;
   height: 100vh;
+  background-color: transparent;
 }
 .res{
   display: none;
   background-color: #03111a;
 }
-.res-title{
-  background-color:#03111a;
-  padding: 10px;
-  margin: 0;
-  color: whitesmoke;
-}
 .vue-typer .custom.char{
   color: aliceblue;
 }
-.nav-res{
-  display: none;
-}
+
 .nav-icon{
   font-size: 1.5em;
 }
@@ -181,26 +158,13 @@ export default {
     display: contents;
     background-color: #03111a;
   }
-  .nav-res{
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  z-index: 1;
-  background-color: #03111a;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.content-title{
-  margin-bottom: 30px;
-}
-}
-@media screen and (max-width: 450px) {
-  .top-text{
+  .content-title{
+    margin-bottom: 30px;
+  }
+  }
+  @media screen and (max-width: 450px) {
+    .top-text{
     font-size: 11px;
   }
 }
-
 </style>

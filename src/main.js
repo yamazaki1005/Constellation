@@ -10,8 +10,8 @@ import VueTyperPlugin from 'vue-typer';
 import VueParticles from 'vue-particles'
 Vue.use(VueTyperPlugin)
 Vue.use(VueParticles)
-// import smoothScroll from 'vue-smoothscroll'
-// Vue.use(smoothScroll)
+import smoothScroll from 'vue-smoothscroll'
+Vue.use(smoothScroll)
 
 Vue.config.productionTip = false;
 
@@ -26,21 +26,16 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        // シェイプ数
         "value": 75,
         "density": {
-          // シェイプの表示間隔設定
           "enable": true,
-          // シェイプの表示間隔
           "value_area": 400
         }
       },
       "color": {
-        // シェイプのカラー
-        "value": "#fff"
+        "value": "#f2ffa0"
       },
       "shape": {
-        // シェイプの形
         "type": "circle",
         "stroke": {
           "width": 0,
@@ -85,7 +80,6 @@ particlesJS('particles-js',
       "move": {
         "enable": true,
         "speed": 6,
-        // directionで方向を変更
         "direction": "bottom",
         "random": false,
         "straight": false,

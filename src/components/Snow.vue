@@ -14,22 +14,16 @@ export default {
 <template>
   <div class="snow-contents">
     <Snowf
-    :amount="50"
-    :size="5"
-    :speed="0.1"
-    :wind="0"
+    :amount="300"
+    :size="3"
+    :speed="0.5"
+    :wind="2"
     :opacity="0.8"
     :swing="1"
     :image="null"
-    :zIndex="null"
+    :zIndex="-1"
     :resize="true"
     color="#fff"
   ></Snowf>
   </div>
 </template>
-
-
-<style scoped>
-.snow-contents {
-}
-</style>

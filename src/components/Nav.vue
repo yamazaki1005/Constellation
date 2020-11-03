@@ -1,10 +1,10 @@
 <template>
   <div>
-    <a href="#" class="nav-button" @click="clickSmoothScroll(1000)">Top</a>
-    <a href="#" class="nav-button" @click="clickSmoothScroll(2000)">About</a>
-    <a href="#" class="nav-button" @click="clickSmoothScroll('#skill')">Skill</a>
-    <a href="#" class="nav-button" @click="clickSmoothScroll('#work')">Works</a>
-    <a href="#" class="nav-button" @click="clickSmoothScroll('#contact')">Contact</a>
+    <a href="#" class="nav-button" @click="clickSmoothScroll('#top')">#</a>
+    <a href="#" class="nav-button" @click="clickSmoothScroll('#about')">#</a>
+    <a href="#" class="nav-button" @click="clickSmoothScroll('#skill')">#</a>
+    <a href="#" class="nav-button" @click="clickSmoothScroll('#work')">#</a>
+    <a href="#" class="nav-button" @click="clickSmoothScroll('#contact')">#</a>
   </div>
 </template>
 
