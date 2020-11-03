@@ -8,12 +8,14 @@
       <vue-particles class="particles"></vue-particles>
       <Typer></Typer>
     </div>
-    <Memo id="memo"></Memo>
-    <About id="about"></About>
 
-    <!-- <Skill id="skill"></Skill>
-    <Work id="work"></Work>
-    <Contact id="contact"></Contact> -->
+    <Memo id="memo"></Memo>
+
+    <!-- <About id="about"></About> -->
+    <Learning id="learning"></Learning>
+
+    <!-- <Skill id="skill"></Skill> -->
+    <!-- <Contact id="contact"></Contact> -->
 
     <Footer id="footer"></Footer>
   </div>
@@ -25,7 +27,9 @@ import ResNav from './components/ResNav.vue'
 import Snow from './components/Snow.vue'
 import Typer from './components/Typer.vue'
 import Memo from './components/Memo.vue'
-import About from './components/About.vue'
+import Learning from './components/Learning.vue'
+// import About from './components/About.vue'
+
 import Footer from './components/Footer.vue'
 
 export default {
@@ -36,10 +40,10 @@ export default {
     Typer,
     Snow,
     Memo,
+    Learning,
     Footer,
-    About,
+    // About,
     // Skill,
-    // Work,
     // Contact
   },
   methods: {
@@ -79,14 +83,13 @@ body{
   transition: opacity 0.5s;
 }
 #app{
-  font-family:'Comic Neue',cursive ;
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   font-style: italic;
   text-align: center;
 }
 #top{
   position: relative;
   /*background-image: url(./assets/yoru2.jpg);*/
-  /* background-color:#03111a; */
   background-size: cover;
   height: 100vh;
 }
@@ -139,8 +142,8 @@ body{
   margin: 50px 20% 100px 20%;
   position: relative;
   font-size: 2em;
-  color: #333;
-  border-bottom: rgba(12, 50, 78, 0.4) 3px solid;
+  color: rgb(120, 120, 184);
+  border-bottom: rgba(61, 148, 211, 0.4) 3px solid;
 }
 @media screen and (max-width: 1200px) {
   .top-text{

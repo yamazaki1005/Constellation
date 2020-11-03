@@ -36,6 +36,5 @@
 <style scoped>
 h1 {
   font-size: 30px;
-  font-family: ;
 }
 </style>
