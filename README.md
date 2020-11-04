@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/08c5bb23-66ca-45c9-889f-b57b3699d74c/deploy-status)](https://app.netlify.com/sites/yama-vuejs-learning/deploys)
+
+
 雪を降らせるvue-snowf
 https://qiita.com/machio77777/items/1b1a1eb0368f8bddadcf
 
