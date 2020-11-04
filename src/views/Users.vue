@@ -1,18 +1,14 @@
 <template>
   <div>
-    <h3>Users</h3>
-    <router-link to="/users/1">ユーザー１</router-link>
-    <router-link to="/users/2">ユーザー２</router-link>
+    <h2>Users</h2>
+    <hr>
+    <router-link to="/users/1" class="link">ユーザー１</router-link>
+    <router-link to="/users/2" class="link">ユーザー２</router-link>
+    <router-link to="/users/3" class="link">ユーザー3</router-link>
+    <router-link to="/users/4" class="link">ユーザー4</router-link>
+    <router-link to="/users/5" class="link">ユーザー5</router-link>
     <hr>
     <h1>User No. {{ id }}</h1>
-    <router-link :to="'/users/' + (Number(id) + 1 ) + '/profile?lang=ja#next-user' ">次のユーザー</router-link>
-    <router-view></router-view>
-    <div style="height: 700px;"></div>
-    <router-link
-      id="next-user"
-      :to="{ name: 'users-id-profile', params: { id: Number(id) + 1 }, query: { lang: 'ja', page: 2 }, hash: '#next-user' }"
-    >次のユーザー</router-link>
-    <div style="height: 1400px;"></div>
   </div>
 </template>
 
@@ -21,3 +17,9 @@ export default {
   props: ["id"]
 };
 </script>
+
+<style scoped>
+.link {
+  padding: 10px;
+}
+</style>

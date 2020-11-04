@@ -14,3 +14,12 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+#main{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+</style>

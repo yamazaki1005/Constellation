@@ -1,32 +1,32 @@
 <template>
     <div>
-        <h1 class="content-title"><font-awesome-icon icon="hammer" class="icon"/> Learning</h1>
+        <h1 class="content-title"><font-awesome-icon icon="hammer" class="icon"/> Output</h1>
         <ul class="works">
           <li class="card">
             <div class="card-content">
               <img class="card-img" src="../assets/learning/1.png" alt="">
               <h1 class="card-title">学習項目1</h1>
-              <p class="card-text">学習内容</p>
+              <p class="card-text">Vueの公開</p>
               <br>
-              <a href="#" class="card-link github-link">Qiita(仮)</a>
+              <a href="#" class="card-link github-link">Qiita(未)</a>
             </div>
           </li>
           <li class="card">
             <div class="card-content">
               <img class="card-img" src="../assets/learning/2.png" alt="">
               <h1 class="card-title">学習項目2</h1>
-              <p class="card-text">学習内容</p>
+              <p class="card-text">ライブラリの導入</p>
               <br>
-              <a href="#" class="card-link github-link">Qiita(仮)</a>
+              <a href="#" class="card-link github-link">Qiita(未)</a>
             </div>
           </li>
           <li class="card">
             <div class="card-content">
               <img class="card-img" src="../assets/learning/3.png" alt="">
               <h1 class="card-title">学習項目3</h1>
-              <p class="card-text">学習内容</p>
+              <p class="card-text">Vue Routerの設定</p>
               <br>
-              <a href="#" class="card-link github-link">Qiita(仮)</a>
+              <a href="#" class="card-link github-link">Qiita(未)</a>
             </div>
           </li>
           <li class="card">
@@ -35,7 +35,7 @@
               <h1 class="card-title">学習項目4</h1>
               <p class="card-text">学習内容</p>
               <br>
-              <a href="#" class="card-link github-link">Qiita(仮)</a>
+              <a href="#" class="card-link github-link">Qiita(未)</a>
             </div>
           </li>
           <li class="card">
@@ -44,7 +44,7 @@
               <h1 class="card-title">学習項目5</h1>
               <p class="card-text">学習内容</p>
               <br>
-              <a href="#" class="card-link github-link">Qiita(仮)</a>
+              <a href="#" class="card-link github-link">Qiita(未)</a>
             </div>
           </li>
           <li class="card">
@@ -53,7 +53,7 @@
               <h1 class="card-title">学習項目6</h1>
               <p class="card-text">学習内容</p>
               <br>
-              <a href="#" class="card-link github-link">Qiita(仮)</a>
+              <a href="#" class="card-link github-link">Qiita(未)</a>
             </div>
           </li>
           <li class="card">
@@ -62,7 +62,7 @@
               <h1 class="card-title">学習項目7</h1>
               <p class="card-text">学習内容</p>
               <br>
-              <a href="#" class="card-link github-link">Qiita(仮)</a>
+              <a href="#" class="card-link github-link">Qiita(未)</a>
             </div>
           </li>
           <li class="card">
@@ -71,7 +71,7 @@
               <h1 class="card-title">学習項目8</h1>
               <p class="card-text">学習内容</p>
               <br>
-              <a href="#" class="card-link github-link">Qiita(仮)</a>
+              <a href="#" class="card-link github-link">Qiita(未)</a>
             </div>
           </li>
           <li class="card">
@@ -80,7 +80,7 @@
               <h1 class="card-title">学習項目9</h1>
               <p class="card-text">学習内容</p>
               <br>
-              <a href="#" class="card-link github-link">Qiita(仮)</a>
+              <a href="#" class="card-link github-link">Qiita(未)</a>
             </div>
           </li>
           <li class="card">
@@ -89,7 +89,7 @@
               <h1 class="card-title">学習項目10</h1>
               <p class="card-text">学習内容</p>
               <br>
-              <a href="#" class="card-link github-link">Qiita(仮)</a>
+              <a href="#" class="card-link github-link">Qiita(未)</a>
             </div>
           </li>
           <li class="card">
@@ -98,7 +98,7 @@
               <h1 class="card-title">学習項目11</h1>
               <p class="card-text">学習内容</p>
               <br>
-              <a href="#" class="card-link github-link">Qiita(仮)</a>
+              <a href="#" class="card-link github-link">Qiita(未)</a>
             </div>
           </li>
           <li class="card">
@@ -107,7 +107,7 @@
               <h1 class="card-title">学習項目12</h1>
               <p class="card-text">学習内容</p>
               <br>
-              <a href="#" class="card-link github-link">Qiita(仮)</a>
+              <a href="#" class="card-link github-link">Qiita(未)</a>
             </div>
           </li>
         </ul>

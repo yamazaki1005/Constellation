@@ -1,8 +1,8 @@
 <template>
   <div>
-    <a href="#" class="nav-button" @click="clickSmoothScroll('#top')">#</a>
-    <a href="#" class="nav-button" @click="clickSmoothScroll('#about')">#</a>
-    <a href="#" class="nav-button" @click="clickSmoothScroll('#skill')">#</a>
+    <router-link to="/" class="nav-button" @click="clickSmoothScroll(0)">Top</router-link>
+    <a href="#" class="nav-button" @click="clickSmoothScroll('#top')">Function</a>
+    <a href="#" class="nav-button" @click="clickSmoothScroll('#output')">Output</a>
     <a href="#" class="nav-button" @click="clickSmoothScroll('#work')">#</a>
     <a href="#" class="nav-button" @click="clickSmoothScroll('#contact')">#</a>
   </div>

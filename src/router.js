@@ -1,62 +1,16 @@
-// import Vue from "vue";
-// import Router from "vue-router";
-// const Home = () => import("./views/Home.vue");
-// const Users = () => import("./views/Users.vue");
-// const UsersPosts = () =>
-//   import("./views/UsersPosts.vue");
-// const UsersProfile = () =>
-//   import("./views/UsersProfile.vue");
-// const HeaderHome = () =>
-//   import("./views/HeaderHome.vue");
-// const HeaderUsers = () =>
-//   import("./views/HeaderUsers.vue");
+import Vue from "vue"; //npmパッケージをプロジェクトで使う
+import Router from "vue-router"; //ルーターをインストール
+import Home from "./views/Home.vue";
+import Users from "./views/Users.vue";
 
-// Vue.use(Router);
+Vue.use(Router); //VueがRouterを使えるようになる
 
-// export default new Router({
-//   mode: "history",
-//   routes: [
-//     {
-//       path: "/",
-//       components: {
-//         default: Home,
-//         header: HeaderHome
-//       }
-//     },
-//     {
-//       path: "/users/:id",
-//       components: {
-//         default: Users,
-//         header: HeaderUsers
-//       },
-//       props: {
-//         default: true,
-//         header: false
-//       },
-//       children: [
-//         { path: "posts", component: UsersPosts },
-//         { path: "profile", component: UsersProfile, name: "users-id-profile" }
-//       ]
-//     },
-//     {
-//       path: "*",
-//       redirect: "/"
-//     }
-//   ],
-//   scrollBehavior(to, from, savedPosition) {
-//     return new Promise(resolve => {
-//       this.app.$root.$once("triggerScroll", () => {
-//         let position = { x: 0, y: 0 };
-//         if (savedPosition) {
-//           position = savedPosition;
-//         }
-//         if (to.hash) {
-//           position = {
-//             selector: to.hash
-//           };
-//         }
-//         resolve(position);
-//       });
-//     });
-//   }
-// });
+// Routerの中身をVuejsに適応させる
+// main.jsで摘出する
+export default new Router({
+  mode: "history",
+  // URLとコンポーネントをマッピングさせる
+  routes: [
+    {path: '/', component: Home},
+    {path: '/users/:id', component: Users, props: true}]
+});

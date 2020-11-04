@@ -1,45 +1,42 @@
 <template>
   <div id="app">
     <Header id="header"></Header>
-    <div class="res"><h1 class="res-title">Vue Learning</h1></div>
+    <div class="res">
+      <h1 class="res-title">Vue Learning</h1>
+    </div>
     <ResNav></ResNav>
+
     <div id="top">
-      <Snow></Snow>
-      <vue-particles class="particles"></vue-particles>
-      <Typer></Typer>
+      <Function></Function>
     </div>
 
-    <Memo id="memo"></Memo>
-
+    <!-- <Memo id="memo"></Memo> -->
     <!-- <About id="about"></About> -->
-    <Learning id="learning"></Learning>
-
+    <Learning id="output"></Learning>
     <!-- <Skill id="skill"></Skill> -->
     <!-- <Contact id="contact"></Contact> -->
-
     <Footer id="footer"></Footer>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
+import Function from './components/Function.vue'
 import ResNav from './components/ResNav.vue'
-import Snow from './components/Snow.vue'
-import Typer from './components/Typer.vue'
-import Memo from './components/Memo.vue'
+// import Snow from './components/Snow.vue'
+// import Typer from './components/Typer.vue'
+// import Memo from './components/Memo.vue'
 import Learning from './components/Learning.vue'
 // import About from './components/About.vue'
-
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
+    Function,
     ResNav,
-    Typer,
-    Snow,
-    Memo,
+    // Memo,
     Learning,
     Footer,
     // About,
@@ -72,7 +69,13 @@ export default {
 body{
   margin: 0;
   background-color: #03121A;
+  /* background-color: #7ba3c4; */
   color: white;
+}
+#app{
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-style: italic;
+  text-align: center;
 }
 .fade-enter,
 .fade-leave-to {
@@ -82,38 +85,16 @@ body{
 .fade-leave-active {
   transition: opacity 0.5s;
 }
-#app{
-  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-  font-style: italic;
-  text-align: center;
-}
 #top{
-  position: relative;
-  /*background-image: url(./assets/yoru2.jpg);*/
-  background-size: cover;
-  height: 100vh;
+  height: 120vh;
 }
-#main{
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-}
-.particles{
-  z-index: 1;
-  height: 100vh;
-  background-color: transparent;
-}
+
 .res{
   display: none;
   background-color: #03111a;
 }
 .vue-typer .custom.char{
   color: aliceblue;
-}
-
-.nav-icon{
-  font-size: 1.5em;
 }
 .comment{
   margin:5px 0;

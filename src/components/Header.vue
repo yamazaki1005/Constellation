@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header-inner">
-      <h1 class="title">Vue Learning</h1>
+      <a href="#" class="title" @click="clickSmoothScroll('#app')">Vue Learning</a>
       <Nav class="nav"></Nav>
     </div>
   </div>
@@ -33,7 +33,9 @@ export default{
 }
 .title{
   padding:20px 0px;
+  font-size: 35px;
   margin:unset;
+  text-decoration-line: none;
 }
 .nav{
   margin: auto ;
