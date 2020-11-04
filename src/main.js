@@ -3,17 +3,23 @@ import App from "./App.vue";
 // import router from "./router";
 // import store from "./store";
 import particlesJS from 'particles.js'
-Vue.use(particlesJS)
-
-
 import VueTyperPlugin from 'vue-typer';
 import VueParticles from 'vue-particles'
+import smoothScroll from 'vue-smoothscroll'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+
+Vue.use(particlesJS)
 Vue.use(VueTyperPlugin)
 Vue.use(VueParticles)
-import smoothScroll from 'vue-smoothscroll'
 Vue.use(smoothScroll)
+library.add(faUserSecret)
+library.add(fas)
 
 Vue.config.productionTip = false;
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 new Vue({
   // router,

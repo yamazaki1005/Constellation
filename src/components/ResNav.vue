@@ -1,9 +1,8 @@
 <template>
-  
   <div class="nav-res">
     <a href="#" class="link-content" @click="clickSmoothScroll('#app')">
       <font-awesome-icon icon="image" class="nav-icon"/>
-      <p class="comment">#</p>
+      <p class="comment">Top</p>
     </a>
     <a href="#" class="link-content" @click="clickSmoothScroll('#about')">
       <font-awesome-icon icon="user-circle" class="nav-icon"/>

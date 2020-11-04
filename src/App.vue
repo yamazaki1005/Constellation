@@ -164,10 +164,13 @@ body{
   .content-title{
     margin-bottom: 30px;
   }
-  }
-  @media screen and (max-width: 450px) {
-    .top-text{
+}
+@media screen and (max-width: 450px) {
+  .top-text{
     font-size: 11px;
+  }
+  .vue-typer .custom.char{
+    font-size: 24px;
   }
 }
 </style>
