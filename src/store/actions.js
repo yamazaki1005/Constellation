@@ -3,3 +3,4 @@ export default {
     commit("updateMessage", newMessage);
   }
 };
+ 
