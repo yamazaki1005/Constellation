@@ -1,19 +1,10 @@
 <template>
   <div id="app">
-    <Header id="header"></Header>
-    <div class="res">
-      <h1 class="res-title">Vue Learning</h1>
-    </div>
+    <Header></Header>
     <ResNav></ResNav>
-    <div id="top">
-      <Function></Function>
-    </div>
+    <Function></Function>
 
-    <!-- <Memo id="memo"></Memo> -->
-    <!-- <About id="about"></About> -->
     <Learning id="output"></Learning>
-    <!-- <Skill id="skill"></Skill> -->
-    <!-- <Contact id="contact"></Contact> -->
     <Footer id="footer"></Footer>
   </div>
 </template>
@@ -22,9 +13,7 @@
 import Header from './components/Header.vue'
 import Function from './components/Function.vue'
 import ResNav from './components/ResNav.vue'
-// import Memo from './components/Memo.vue'
 import Learning from './components/Learning.vue'
-// import About from './components/About.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -33,12 +22,8 @@ export default {
     Header,
     Function,
     ResNav,
-    // Memo,
     Learning,
     Footer,
-    // About,
-    // Skill,
-    // Contact
   },
   methods: {
     clickSmoothScroll (x) {
@@ -61,12 +46,11 @@ export default {
 };
 </script>
 
-
 <style>
 body{
   margin: 0;
-  /* background-color: #03121A; */
-  background-color: #7ba3c4;
+  background-color: #03121A;
+  /* background-color: #7ba3c4; */
   color: white;
 }
 #app{

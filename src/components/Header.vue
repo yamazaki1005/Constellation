@@ -32,6 +32,7 @@ export default{
   display: flex;
 }
 .title{
+  color: whitesmoke;
   padding:20px 0px;
   font-size: 35px;
   margin:unset;
@@ -41,5 +42,10 @@ export default{
   margin: auto ;
   margin-right: 0;
   padding: auto;
+}
+@media screen and (max-width: 450px) {
+  .header {
+    display: none;
+  }
 }
 </style>

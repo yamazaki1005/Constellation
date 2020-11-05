@@ -1,8 +1,9 @@
 import Vue from "vue"; //npmパッケージをプロジェクトで使う
 import Router from "vue-router"; //ルーターをインストール
-import Home from "./views/Home.vue";
-import Users from "./views/Users.vue";
-import ToDo from "./views/ToDo.vue";
+import Top from "./components/function/Top.vue";
+import LibraryUsed from "./components/function/LibraryUsed.vue";
+import Constellation from "./components/function/Constellation.vue";
+import ToDo from "./components/function/ToDo.vue";
 
 Vue.use(Router); //VueがRouterを使えるようになる
 
@@ -12,8 +13,9 @@ export default new Router({
   mode: "history",
   // URLとコンポーネントをマッピングさせる
   routes: [
-    {path: '/', component: Home},
-    {path: '/users/:id', component: Users, props: true},
+    {path: '/', component: Top},
+    {path: '/libraryused', component: LibraryUsed},
+    {path: '/constellation/:id', component: Constellation, props: true},
     {path: '/todo', component: ToDo}
   ]
 });

@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Snow from '../components/Snow.vue'
-import Typer from '../components/Typer.vue'
+import Snow from './Snow.vue'
+import Typer from './Typer.vue'
 
 export default {
   components: {

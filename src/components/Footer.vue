@@ -4,13 +4,12 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .footer{
   margin-top: 100px;
   background-color: #03111a;
 }
-.title{
-  padding:20px;
-  color: whitesmoke;
+.footer > .title{
+  font-size: 16px;
 }
 </style>

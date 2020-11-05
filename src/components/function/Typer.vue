@@ -15,10 +15,10 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 #main{
   position: absolute;
-  top: 60%;
+  top: 60vh;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
 }

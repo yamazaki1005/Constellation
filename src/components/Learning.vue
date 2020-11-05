@@ -173,18 +173,6 @@
   border-color: #171515;
   color: #171515;
 }
-/*.work-content{
-	width: 350px;
-	padding: 10px;
-	margin: 30px 60px;
-  display: inline-block;
-}
-.work-content:hover{
-  background-color: rgba(50, 50, 100, 0.3);
-}
-.works-image{
-    width: 100%;
-}*/
 @media screen and (max-width: 768px){
   .works{
       padding-left: 1%;

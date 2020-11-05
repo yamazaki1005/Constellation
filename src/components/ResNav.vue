@@ -24,14 +24,11 @@
 </template>
 
 <style scoped>
-.res-title{
-  background-color:#03111a;
-  padding: 10px;
-  margin: 0;
-  color: whitesmoke;
-}
 .nav-res{
   display: none;
+}
+.nav-icon{
+  font-size: 1.5em;
 }
 @media screen and (max-width: 768px){
   .nav-res{
@@ -46,8 +43,5 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
-}
-.nav-icon{
-  font-size: 1.5em;
 }
 </style>
