@@ -4,7 +4,7 @@
     <nav>
       <router-link to="/" class="link">Library</router-link>
       <router-link to="/users/1" class="link">Vue Router</router-link>
-      <router-link to="/users/1" class="link coming-soon">Coming Soon</router-link>
+      <router-link to="/todo" class="link">To do</router-link>
     </nav>
     
     <router-view></router-view>
@@ -23,17 +23,21 @@ export default {
 
 <style>
 nav > .link {
-  padding: 13px;
   margin: 5px;
-  background-color: rgb(119, 119, 173);
-  color: white;
-  border-radius: 20px;
-  text-decoration-line: none;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
 }
-nav > .coming-soon {
-  padding: 5px;
-  background-color: rgb(179, 179, 223) important!;
-  cursor: not-allowed;
-  color: black;
+nav > .link:hover {
+  opacity: 0.8;
+}
+nav > .link:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
 }
 </style>

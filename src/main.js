@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import App from "./App.vue";
+import Test from "./Test.vue";
 import router from "./router";
 // import store from "./store";
 import particlesJS from 'particles.js'
@@ -23,7 +24,12 @@ library.add(fas)
 Vue.config.productionTip = false;
 
 new Vue({
+  Test,
+  render: h => h(Test)
+}).$mount("#test");
+
+new Vue({
   router,
   // store,
-  render: h => h(App)
+  render: h => h(App) //仮想dom
 }).$mount("#app");

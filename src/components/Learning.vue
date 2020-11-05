@@ -31,7 +31,7 @@
           </li>
           <li class="card">
             <div class="card-content">
-              <img class="card-img" src="../assets/learning/5.png" alt="">
+              <img class="card-img" src="../assets/learning/4.png" alt="">
               <h1 class="card-title">学習項目4</h1>
               <p class="card-text">学習内容</p>
               <br>
@@ -40,7 +40,7 @@
           </li>
           <li class="card">
             <div class="card-content">
-              <img class="card-img" src="../assets/learning/6.png" alt="">
+              <img class="card-img" src="../assets/learning/5.png" alt="">
               <h1 class="card-title">学習項目5</h1>
               <p class="card-text">学習内容</p>
               <br>
@@ -49,7 +49,7 @@
           </li>
           <li class="card">
             <div class="card-content">
-              <img class="card-img" src="../assets/learning/7.png" alt="">
+              <img class="card-img" src="../assets/learning/6.png" alt="">
               <h1 class="card-title">学習項目6</h1>
               <p class="card-text">学習内容</p>
               <br>
@@ -58,7 +58,7 @@
           </li>
           <li class="card">
             <div class="card-content">
-              <img class="card-img" src="../assets/learning/8.png" alt="">
+              <img class="card-img" src="../assets/learning/7.png" alt="">
               <h1 class="card-title">学習項目7</h1>
               <p class="card-text">学習内容</p>
               <br>
@@ -67,7 +67,7 @@
           </li>
           <li class="card">
             <div class="card-content">
-              <img class="card-img" src="../assets/learning/9.png" alt="">
+              <img class="card-img" src="../assets/learning/8.png" alt="">
               <h1 class="card-title">学習項目8</h1>
               <p class="card-text">学習内容</p>
               <br>
@@ -76,7 +76,7 @@
           </li>
           <li class="card">
             <div class="card-content">
-              <img class="card-img" src="../assets/learning/1.png" alt="">
+              <img class="card-img" src="../assets/learning/9.png" alt="">
               <h1 class="card-title">学習項目9</h1>
               <p class="card-text">学習内容</p>
               <br>
@@ -85,7 +85,7 @@
           </li>
           <li class="card">
             <div class="card-content">
-              <img class="card-img" src="../assets/learning/1.png" alt="">
+              <img class="card-img" src="../assets/learning/10.png" alt="">
               <h1 class="card-title">学習項目10</h1>
               <p class="card-text">学習内容</p>
               <br>
@@ -94,7 +94,7 @@
           </li>
           <li class="card">
             <div class="card-content">
-              <img class="card-img" src="../assets/learning/1.png" alt="">
+              <img class="card-img" src="../assets/learning/11.png" alt="">
               <h1 class="card-title">学習項目11</h1>
               <p class="card-text">学習内容</p>
               <br>
@@ -103,7 +103,7 @@
           </li>
           <li class="card">
             <div class="card-content">
-              <img class="card-img" src="../assets/learning/1.png" alt="">
+              <img class="card-img" src="../assets/learning/12.png" alt="">
               <h1 class="card-title">学習項目12</h1>
               <p class="card-text">学習内容</p>
               <br>

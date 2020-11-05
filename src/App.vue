@@ -5,7 +5,6 @@
       <h1 class="res-title">Vue Learning</h1>
     </div>
     <ResNav></ResNav>
-
     <div id="top">
       <Function></Function>
     </div>
@@ -23,8 +22,6 @@
 import Header from './components/Header.vue'
 import Function from './components/Function.vue'
 import ResNav from './components/ResNav.vue'
-// import Snow from './components/Snow.vue'
-// import Typer from './components/Typer.vue'
 // import Memo from './components/Memo.vue'
 import Learning from './components/Learning.vue'
 // import About from './components/About.vue'
@@ -68,8 +65,8 @@ export default {
 <style>
 body{
   margin: 0;
-  background-color: #03121A;
-  /* background-color: #7ba3c4; */
+  /* background-color: #03121A; */
+  background-color: #7ba3c4;
   color: white;
 }
 #app{
